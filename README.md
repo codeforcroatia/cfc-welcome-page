@@ -1,4 +1,4 @@
-#Welcome page for Open Zagreb
+#Welcome page for Code for Croatia
 
 Note that branch `gh-pages` is what shows on development codeforcroatia.github.io/cfc-welcome-page.
 
