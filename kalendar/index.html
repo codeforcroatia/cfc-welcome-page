@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Code for Croatia | Kalendar događanja</title>
+    <meta name="distributor" content="Global" />
+    <meta itemprop="contentRating" content="General" />
+    <meta name="robots" content="All" />
+    <meta name="revisit-after" content="30 days" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='http://fonts.googleapis.com/css?family=Economica' rel='stylesheet' type='text/css'>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+    <!-- Respomsive slider -->
+    <link href="css/responsive-calendar.css" rel="stylesheet">
+    <base target="_parent" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Responsive calendar - START -->
+    	<div class="responsive-calendar">
+    	<h4><center><span data-head-year></span></center></h4>
+        <div class="controls">
+            <a class="pull-left" data-go="prev"><div class="btn btn-primary">&lt;</div></a>
+            <h4><span data-head-month></span></h4>
+            <a class="pull-right" data-go="next"><div class="btn btn-primary">&gt;</div></a>
+        </div><hr/>
+        <div class="day-headers">
+          <div class="day header">Pon</div>
+          <div class="day header">Uto</div>
+          <div class="day header">Sri</div>
+          <div class="day header">Čet</div>
+          <div class="day header">Pet</div>
+          <div class="day header">Sub</div>
+          <div class="day header">Ned</div>
+        </div>
+        <div class="days" data-group="days">
+          
+        </div>
+      </div>
+      <!-- Responsive calendar - END -->
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/responsive-calendar.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $(".responsive-calendar").responsiveCalendar({
+          time: '2014-07',
+          events: {
+            "2014-05-06": {"url": "https://www.entrio.hr/event/otvoreni-zagreb-meetup-6-1430"},
+            "2014-05-31": {"url": "https://www.entrio.hr/event/nacionalni-dan-civilnog-hakiranja-1500"}, 
+            "2014-06-12": {"url": "https://www.entrio.hr/event/otvoreni-zagreb-meetup-7-1431"}, 
+            "2014-07-04": {"url": "https://www.entrio.hr/event/otvoreni-zagreb-meetup-8-1648"},
+            "2014-09-28": {"url": "http://www.uzuvrh.hr/vijest.aspx?pageID=1&newsID=909"},  
+			"2014-10-02": {"url": "http://codeforcroatia.open.hr/index2.html#meetup"},  
+            }
+        });
+      });
+    </script>
+  </body>
+</html>

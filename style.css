@@ -162,6 +162,36 @@
 
 
 
+    /* RESPONSIVE IFRAME
+    -------------------------------------------------- */
+
+
+.embed-responsive
+{
+display: block;
+height: 0;
+overflow: hidden;
+position: relative;
+}
+
+.embed-responsive.embed-responsive-16by9
+{
+padding-bottom: 56.25%
+}
+
+.embed-responsive .embed-responsive-item, .embed-responsive iframe, .embed-responsive embed, .embed-responsive object
+{
+border: 0 none;
+bottom: 0;
+height: 100%;
+left: 0;
+position: absolute;
+top: 0;
+width: 100%;
+}
+
+
+
     /* RESPONSIVE CSS
     -------------------------------------------------- */
 
