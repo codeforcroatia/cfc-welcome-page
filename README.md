@@ -21,4 +21,4 @@ https://github.com/jandjorgensen/cfa-brigade-template
 This repo and the site is based on [codeforhamptonroads.org]{https://github.com/c4hrva/c4hrva-landing} and uses Twitter Bootstrap and started from their [Carousel jumbotron](http://twitter.github.com/bootstrap/examples/carousel.html) template. They are awesome.
 
 ##Issues, Questions, Wana Help?
-We take Pull Requests! See our landing page [Code for Croatia](http://codeforcroatia.open.hr) for getting involved, and [Open Zagreb](http://codeforcroatia.open.hr/openzagreb) if you're from City of Zagreb. Use [GitHub's issues](https://github.com/codeforcroatia/cfc-welcome-page/issues/new) if you see a problem or have a feature request. You can contact the maintainer @schlos.
+We take Pull Requests! See our landing page [Code for Croatia](http://about.codeforcroatia.org) for getting involved, and [Open Zagreb](http://codeforcroatia.open.hr/openzagreb) if you're from City of Zagreb. Use [GitHub's issues](https://github.com/codeforcroatia/cfc-welcome-page/issues/new) if you see a problem or have a feature request. You can contact the maintainer @schlos.
