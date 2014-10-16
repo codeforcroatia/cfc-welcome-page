@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Code for Croatia</title>
+    <meta name="description" content="Code for Croatia helps citizens to get involved in a local group to open public data and create meaningful services">
+    <link rel="shortcut icon" href="../favicon.ico" />
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.0/css/bootstrap-combined.min.css" rel="stylesheet">
+    <link href="../style.css" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.0/js/bootstrap.min.js"></script>
+	<script type='text/javascript' src='http://about.codeforcroatia.org/scripts/uk-cookie-consent-js.js?ver=3.6'></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      var pluginUrl =
+      '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
+      _gaq.push(['_require', 'inpage_linkid', pluginUrl]);
+      _gaq.push(['_setAccount', 'UA-46708458-4']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+	<style type="text/css" media="screen">
+			#catapult-cookie-bar {
+				direction: ltr;
+				color: #dddddd;
+				min-height: 30px;
+				position: fixed;
+				left: 0;
+				bottom: 0;
+				width: 100%;
+				z-index: 99999;
+				padding:6px 20px 4px;
+				background-color: #464646;
+				text-align:left;
+			}
+			#catapult-cookie-bar a {
+				color: #dddddd;
+			}
+			button#catapultCookie {
+				margin:0 20px;
+				line-height:20px;
+				background:#45AE52;
+				border:none;
+				color: #dddddd;
+				padding:4px 12px;
+				border-radius: 3px;
+				cursor: pointer;
+				font-size: 13px;
+				font-weight: bold;
+			}
+		</style>		
+	<script type="text/javascript">
+		jQuery(document).ready(function(){
+			if(catapultReadCookie("catAccCookies")){//If the cookie has been set
+				jQuery("#catapult-cookie-bar").hide();
+				jQuery("html").css("margin-top","0");
+			}
+		});
+	</script>
+  </head>
+
+  <body>
+
+    <!-- NAVBAR
+    ================================================== -->
+    <div class="navbar-wrapper">
+      <!-- Wrap the .navbar in .container to center it within the absolutely positioned parent. -->
+      <div class="container">
+
+        <div class="navbar navbar-inverse">
+          <div class="navbar-inner">
+            <!-- Responsive Navbar Part 1: Button for triggering responsive navbar. Include responsive CSS to utilize. -->
+            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </a>
+            <a class="brand" href="#">Code for Croatia</a>
+            <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
+            <div class="nav-collapse collapse">
+              <ul class="nav">
+                <li class="active"><a href="#">Home</a></li>
+				<li><a href="index2.html">Info</a></li>
+                <!-- <li><a href="index2.html#meetup">Meetings</a></li>
+                <li><a href="index2.html#contact">Kontakt</a></li> 
+				<li><a href="volonteri.html">Volonteri</a></li> -->
+				<!-- Read about Bootstrap dropdowns at http://twitter.github.com/bootstrap/javascript.html#dropdowns -->
+               <!-- <li class="dropdown" id="menu1">
+                  <a href="#menu1" class="dropdown-toggle" data-toggle="dropdown">
+                    Lokalne grupe
+                    <b class="caret"></b>
+                  </a> 
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a href="http://codeforcroatia.open.hr/openzagreb">
+                        <i class=icon-user icon-white></i>
+                        Open Zagreb - Otvoreni Zagreb</a>
+                    </li>
+                   <li class="divider"></li>
+                    <li>
+                      <a href="#contact">
+                        <i class=icon-thumbs-up icon-white></i>
+                        Pokreni grupu u svom gradu</a>
+                      </li>
+					                      <li>
+                      <a href="http://brigade.codeforamerica.org/pages/tools">
+                        <i class=icon-wrench icon-white></i>
+                        Alati za organizaciju grupe</a>
+                      </li>
+					  </ul> -->
+                <!-- Read about Bootstrap dropdowns at http://twitter.github.com/bootstrap/javascript.html#dropdowns -->
+                <li class="dropdown" id="menu2">
+                  <a href="#menu2" class="dropdown-toggle" data-toggle="dropdown">
+                    Resources
+                    <b class="caret"></b>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a href="https://skymob.co/join/utekzh">
+                      <i class=icon-comment icon-white></i>
+                      Chat</a>
+                    </li>
+                    <li>
+                      <a href="#soon">
+                        <i class=icon-user icon-white></i>
+                        Our meetings</a>
+                    </li>
+                    <li>
+                      <a href="https://github.com/codeforcroatia">
+                        <i class=icon-wrench icon-white></i>
+                        Our work on GitHub</a>
+                    </li>
+                    <li>
+                      <a href="http://codeforcroatia.org">
+                      <i class=icon-thumbs-up icon-white></i>
+                      Our projects</a>
+                    </li>
+                    <li>
+                      <a href="https://app.box.com/s/mx89ftd77e08c772vpol">
+                        <i class=icon-folder-open icon-white></i>
+                        Our documents</a>
+                    </li>
+
+                    <li class="divider"></li>
+
+                    <li>
+                      <a href="https://twitter.com/codeforcroatia">
+                        <i class=icon-retweet icon-white></i>
+                        Code for Croatia tweets</a>
+                      </li>
+                    <li>
+                      <a href="https://twitter.com/search?q=%23cfabrigade">
+                        <i class=icon-retweet icon-white></i>
+                        #cfabrigade tweets</a>
+                      </li>
+                  </ul>
+                </li>
+              </ul>
+            </div><!--/.nav-collapse -->
+          </div><!-- /.navbar-inner -->
+        </div><!-- /.navbar -->
+
+      </div> <!-- /.container -->
+    </div><!-- /.navbar-wrapper -->
+
+
+
+    <!-- Carousel - but not using at the moment
+    ================================================== -->
+    <div class="carousel slide">
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="../images/lunaticdesire_croatia_tn.jpg">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Code for Croatia.</h1>
+              <p class="lead">
+               We are citizens, developers and designers who volunteer for change.
+              </p>
+              <a class="btn btn-large btn-primary"
+                href="http://codeforcroatia.org/register">Come aboard</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><!-- /.carousel -->
+
+    <div class="container marketing">
+
+    <!--    code across banner
+    
+   <div class="row">
+       <div class="span12" style="text-align: center; margin-top: -50px; padding-bottom: 50px;">
+           <h2 class="featurette-heading">Naš sljedeći događaj: 21.-22. veljače 2014.</h2>
+           <a href="/codeacross">
+               <img src="../codeacross/img/code_across_banner.png" />
+           </a>
+       </div>
+   </div> 
+
+   <div class="row" style="width:100%; text-align:left;"><iframe  src="https://www.eventbrite.com/tickets-external?eid=10183283475&ref=etckt" frameborder="0" height="500" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe><div style="font-family:Helvetica, Arial; font-size:10px; padding:5px 0 5px; margin:2px; width:100%; text-align:left;" ></div></div>
+   -->
+   
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+
+
+      <!-- Three columns of text below the carousel -->
+	  
+	        <div class="featurette">
+        <center><h2 class="featurette-heading">About us. <span class="muted">Code for Croatia.</span></h2></center>
+        <p class="lead">
+		Code for Croatia is initiative initiative that brings together citizens, designers, developers and young entrepreneurs to build awsome things. Our goal is to increase the interactivity of cities, to encourage a better response from cities and create meaningful change through technology.
+        <br>
+		<center><strong><span class="muted">Our process in three steps:</span></strong></center>
+		</p>
+      </div>
+	  
+      <div class="row">
+        <div class="span4">
+          <img src="../images/icon_10812_tg.png">
+          <h2>1. Problem</h2>
+          <p>We interact with government and the broader community to discover the most pressing public issues.</p>
+        </div><!-- /.span4 -->
+
+        <div class="span4">
+          <img src="../images/icon_18707_tg.png">
+          <h2>2. Idea</h2>
+          <p>Design isn’t just visual. Design thinking influences how we think and respond to the issue at hand.</p>
+        </div><!-- /.span4 -->
+
+        <div class="span4">
+          <img src="../images/icon_30992_tg.png">
+          <h2>3. Solution</h2>
+          <p>We go to great lengths to create solutions that work in the real world. We prioritise goodwill and impact.
+          </p>
+        </div><!-- /.span4 -->
+      </div><!-- /.row -->
+
+  <hr class="featurette-divider">
+  
+      <!-- START THE FEATURETTES -->
+	  
+	        <div class="featurette">
+        <center><h2 class="featurette-heading">Get involved. <span class="muted">Just a click away.</span></h2></center>
+        <p class="lead">
+		For this to work, we need you to get involved. No matter if you are a designer, developer, entrepreneur or ideas person, creating and launching apps for ‘the greater good’ is now just a push of a button away.
+		</p>
+      </div>
+	  
+      <div class="row">
+        <div class="span4">
+          <img src="../images/icon_41377_tg.png">
+          <h2><strong>Code</strong> for <strong>connections</strong></h2>
+          <p>Join a global network of designers and developers who are engineering positive social change. Connect with government stakeholders, citizens and the media.</p>
+        </div><!-- /.span4 -->
+
+        <div class="span4">
+          <img src="../images/icon_18157_tg.png">
+          <h2><strong>Code</strong> for <strong>skills</strong></h2>
+          <p>Join an experienced team of start-up people and entreupreneurs and learn about every step in the process from idea to inception.</p>
+        </div><!-- /.span4 -->
+
+        <div class="span4">
+          <img src="../images/icon_18986_tg.png">
+          <h2><strong>Code</strong> for <strong>change</strong></h2>
+          <p>Join a global network of designers and developers who are engineering positive social change. Connect with government stakeholders, citizens and the media.
+          </p>
+        </div><!-- /.span4 -->
+      </div><!-- /.row -->
+	  
+	  
+ <hr class="featurette-divider">
+
+      <div class="featurette">
+        <center><h2 class="featurette-heading">Want more? <span class="muted">Read on.</span></h2></center>
+        <p class="lead">
+		You are interested and want to know more about us? Join us on our meetings and find out more about our current projects. Feel free to join on our relaxed meetings.
+        </p>
+		              <center><a class="btn btn-large btn-primary"
+                href="http://codeforcroatia.org">See more</a></center>
+      </div>
+
+      <hr class="featurette-divider">
+	  
+	  <!-- Change the width and height values to suit you best 
+<div class="typeform-widget" data-url="https://codeforcroatia.typeform.com/to/iGSCkU" data-text="Ispuni upitnik" style="width:100%;height:550px;"></div>
+<script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'widget.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
+
+      <hr class="featurette-divider"> -->
+
+      <!-- /END THE FEATURETTES -->
+
+	  <div id="catapult-cookie-bar">This page uses cookies<button id="catapultCookie" tabindex=1 onclick="catapultAcceptCookies();">No problem</button><a target="_blank" tabindex=1 href="http://codeforcroatia.open.hr/cookie-policy.html">More...</a></div>
+
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>...People who want make Croatia better place to live...</p>
+        <p>Maintained by CfC (Hey that's us). Code is <a href="https://github.com/codeforcroatia/cfc-welcome-page">cfc-welcome-page</a>, and site design is based on <a href="http://twitter.github.com/bootstrap">Bootstrap</a>. Some images provided by <a href="http://thenounproject.com">The Noun Project</a> (<a href="../credits.html">attributions</a>), and special thanks to <a href="http://www.flickr.com/photos/lunaticdesire/">LunaticDesire</a> for Zagreb center panorama photo from header.</p>
+      </footer>
+
+    </div><!-- /.container -->
+
+
+  </body>
+</html>
