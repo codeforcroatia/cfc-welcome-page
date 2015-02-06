@@ -100,7 +100,7 @@
 
 	#speakers {
 		color: black;
-		background: rgb(179, 238, 245);
+		background: rgb(74, 170, 253);
 	}
 
 	#speakers .intro {
@@ -245,9 +245,10 @@
 	Activities
 	********************/
 
-	#activities {
-		background: #B3EEF5;
+/*	#activities {
+		background: rgb(74, 170, 253);
 	}
+*/
 
 	#activities div {
 		margin-bottom: 1em;
@@ -317,6 +318,11 @@
 	Contact
 	*******************/
 
+	#contact {
+		color: black;
+		background: rgb(74, 170, 253);
+	}
+	
 	#contact {
 		text-align: center;
 	}
