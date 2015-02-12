@@ -164,6 +164,76 @@
 		margin-bottom: 1em;
 	}
 
+	/******************
+	Speakers2
+	******************/
+
+	#speakers2 {
+		color: black;
+		background: #F7EF73;
+	}
+
+	#speakers2 .intro {
+		text-align: center;
+	}
+
+	#speakers2 img {
+		background: white;
+		border: 5px solid white;
+		padding-bottom: 1em;
+		margin-bottom: 0;
+	}
+
+	#speakers2 h1 {
+		color: black;
+	}
+
+	#speakers2 h2, h4 {
+		text-align: left;
+		margin: 0;
+	}
+
+	#speakers2 h4 {
+		font-family: Helvetica, Arial, sans-serif;
+		color: #6D6E71;
+	}
+
+	#speakers2 p {
+		margin: 1em 0;
+	}
+
+	#speakers2 ul {
+		list-style-type: none;
+		margin: 8px 0;
+		padding: 8px;
+		background: white;
+		border-radius: 6px;
+	}
+
+	#speakers2 ul li {
+		padding: 0 .25em;
+	}
+
+	#speakers2 img {
+		display: block;
+		max-width: 40%;
+		float: left;
+		margin-right: 1em;
+		margin-bottom: .25em;
+	}
+
+	#speakers2 h2 {
+		font-size: 1.25em;
+	}
+
+	#speakers2 p {
+		font-size: 14px;
+	}
+
+	#speakers2 .speaker {
+		margin-bottom: 1em;
+	}
+
 
 	/******************
 	Events
