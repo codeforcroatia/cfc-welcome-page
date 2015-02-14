@@ -1,4 +1,5 @@
-codeacross
+CodeAcross
 ==========
 
-codeacross hamptonroads landing
+CodeAcross and Open Data Day Croatia 
+event landing page
