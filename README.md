@@ -1,6 +1,6 @@
 #Welcome page for Code for Croatia
 
-Note that `master` branch is what shows on live codeforcroatia.github.io.
+Note that this project is **deprecated**. Check project page at: http://codeforcroatia.github.io.
 
 ##How to Code for this Repo
 Option A: Fork, Edit, then Pull Request when ready.
