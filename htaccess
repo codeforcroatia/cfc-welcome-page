@@ -1,0 +1,7 @@
+RewriteEngine On
+# anything that is not equal to www.example-new.co.uk
+# example RewriteCond %{HTTP_HOST} !^www\.example-new\.co\.uk$
+RewriteCond %{HTTP_HOST} !^www\.about.codeforcroatia\.org$
+# redirects to http://www.example-new.co.uk/anything
+# example RewriteRule ^/?(.*)$ http://www.example-new.co.uk/$1 [R=301,L]
+RewriteRule ^/?(.*)$ http://dev.codeforcroatia.org/$1 [R=301,L]
